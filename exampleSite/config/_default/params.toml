@@ -18,6 +18,18 @@ loading = "loading..."
 
 # --- OPTIONAL -----------------------------------------------------------------
 
+# Password Protection (for private album)
+[passwordProtect]
+enabled = true
+# Password for accessing the album
+password = "20211104"
+title = "相册"
+placeholder = "密码"
+buttonText = "查看"
+verifyingText = "验证中..."
+emptyError = "请输入密码"
+wrongError = "密码错误"
+
 # whether to use favicon resource links
 # generate these with https://realfavicongenerator.net
 favicon = true

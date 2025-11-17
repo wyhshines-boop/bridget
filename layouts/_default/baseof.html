@@ -9,6 +9,7 @@
     {{- partial "head/favicon.html" . -}}
   </head>
   <body lang="{{- site.LanguageCode -}}">
+    {{- partial "password-protect.html" . -}}
     <div id="main">
       {{- block "main" . -}}
       {{- end -}}
