@@ -1,6 +1,6 @@
 # Hugo default output directory
 public/
-exampleSite/resources/
+# exampleSite/resources/  # 注释掉以便 Vercel 使用缓存
 
 node_modules/
 build/
