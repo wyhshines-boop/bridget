@@ -1,0 +1,10 @@
+{
+  "build": {
+    "env": {
+      "HUGO_VERSION": "0.139.0"
+    }
+  },
+  "buildCommand": "bash vercel.sh",
+  "outputDirectory": "exampleSite/public",
+  "installCommand": "npm i -g pnpm@10.20.0 && pnpm config set onlyBuiltDependencies 'esbuild,unrs-resolver' && pnpm install"
+}
